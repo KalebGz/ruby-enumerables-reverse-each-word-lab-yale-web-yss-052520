@@ -24,9 +24,9 @@ def reverse_each_word(str)
   new_str = []
   str_array = str.split(' ')
   
-  str_array.collect{ |element|
+  str_array = str_array.collect{ |element|
   element.reverse
   }
-  bindings
-  str_array.join
+  
+  str_array.join(' ')
 end
